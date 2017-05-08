@@ -25,6 +25,7 @@
 " orange          #ff8700    rgb(255, 135, 0)      208    9
 " ocre            #87875f    rgb(135, 135, 95)     101    3
 " yellow          #ffffaf    rgb(255, 255, 175)    229    11
+" dark yellow     #afaf5f    rgb(175, 175, 95)     143    11
 
 hi clear
 
@@ -102,7 +103,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
   hi DiffText         ctermbg=235  ctermfg=208  guibg=#262626 guifg=#ff8700 cterm=reverse        gui=reverse
 
   hi IncSearch        ctermbg=131  ctermfg=235  guibg=#af5f5f guifg=#262626 cterm=NONE           gui=NONE
-  hi Search           ctermbg=229  ctermfg=235  guibg=#ffffaf guifg=#262626 cterm=NONE           gui=NONE
+  hi Search           ctermbg=143  ctermfg=235  guibg=#afaf5f guifg=#262626 cterm=NONE           gui=NONE
 
   hi Directory        ctermbg=NONE ctermfg=73   guibg=NONE    guifg=#5fafaf cterm=NONE           gui=NONE
 
