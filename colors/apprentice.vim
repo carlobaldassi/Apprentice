@@ -40,7 +40,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
   hi LineNr         ctermbg=234  ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
   hi FoldColumn     ctermbg=234  ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
   hi Folded         ctermbg=234  ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
-  hi MatchParen     ctermbg=234  ctermfg=229  guibg=#1c1c1c guifg=#ffffaf cterm=NONE           gui=NONE
+  hi MatchParen     ctermbg=235  ctermfg=85   guibg=#262626 guifg=#55ff9e cterm=NONE           gui=NONE
   hi signColumn     ctermbg=234  ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
 
   set background=dark
@@ -103,7 +103,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
   hi DiffText         ctermbg=235  ctermfg=208  guibg=#262626 guifg=#ff8700 cterm=reverse        gui=reverse
 
   hi IncSearch        ctermbg=131  ctermfg=235  guibg=#af5f5f guifg=#262626 cterm=NONE           gui=NONE
-  hi Search           ctermbg=143  ctermfg=235  guibg=#afaf5f guifg=#262626 cterm=NONE           gui=NONE
+  hi Search           ctermbg=238  ctermfg=250  guibg=#444444 guifg=#bcbcbc cterm=NONE           gui=NONE
 
   hi Directory        ctermbg=NONE ctermfg=73   guibg=NONE    guifg=#5fafaf cterm=NONE           gui=NONE
 
